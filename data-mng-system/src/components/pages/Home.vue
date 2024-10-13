@@ -1,7 +1,11 @@
-<scropt setup>
-
-</scropt>
+<script setup>
+    console.log('[Home.vue]: script setup completed.');
+    
+    
+</script>
 
 <template>
-    <div>HOME</div>
+  <v-app>
+    <p>Home Screen</p>
+  </v-app>
 </template>
