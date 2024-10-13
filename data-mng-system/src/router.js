@@ -4,7 +4,7 @@ import Edit from './components/pages/Edit.vue'
 import Search from './components/pages/Search.vue'
 
 const routes = [
-  { path: '/', name: 'Home', component: Home },
+  { path: '/', redirect: '/home' },
   { path: '/home', name: 'Home', component: Home },
   { path: '/search', name: 'Search', component: Search },
   { path: '/edit', name: 'Edit', component: Edit },
