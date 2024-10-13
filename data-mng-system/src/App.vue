@@ -1,9 +1,9 @@
 <script setup>
-
+import test from './components/pages/test.vue'
 </script>
 
 <template>
   <div>
-    HELLO WORLD!
+   <test></test>
   </div>
 </template>
