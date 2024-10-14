@@ -5,17 +5,29 @@
     import RadioButtonComp from '../commons/RadioButtonComp.vue'
     
 
-    const radioBtnItems = ref([
-        {label: 'Radio1', value: 'val1'},
-        {label: 'Radio2', value: 'val2'},
-        {label: 'Radio3', value: 'val3'},
-        {label: 'Radio4', value: 'val4'},
-        {label: 'Radio5', value: 'val5'}
+    const radioBtnItemsA = ref([
+        {label: 'RadioA1', value: 'valA1'},
+        {label: 'RadioA2', value: 'valA2'},
+        {label: 'RadioA3', value: 'valA3'},
+        {label: 'RadioA4', value: 'valA4'},
+        {label: 'RadioA5', value: 'valA5'}
+    ])
+
+    const radioBtnItemsB = ref([
+        {label: 'RadioB1', value: 'valB1'},
+        {label: 'RadioB2', value: 'valB2'},
+        {label: 'RadioB3', value: 'valB3'}
     ])
 
 </script>
 
 <template>
     <p>SearchFormArea</p>
-    <RadioButtonComp :btnItems="radioBtnItems"></RadioButtonComp>
+
+    <p>RadioButnItemsA</p>
+    <RadioButtonComp :btnItems="radioBtnItemsA"></RadioButtonComp>
+
+    <p>RadioButnItemsB</p>
+    <RadioButtonComp :btnItems="radioBtnItemsB"></RadioButtonComp>
+    
 </template>

@@ -7,7 +7,6 @@
 <template>
   <v-app>
     <div class="search-area">
-      <p>Search Screen</p>
       <SearchFormArea></SearchFormArea>
     </div>
   </v-app>
