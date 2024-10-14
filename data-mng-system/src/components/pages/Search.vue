@@ -30,6 +30,6 @@
   position: relative;
   padding-left: 0rem;
   background-color:blanchedalmond;
-  width: 35rem;
+  width: 100%;
 }
 </style>
