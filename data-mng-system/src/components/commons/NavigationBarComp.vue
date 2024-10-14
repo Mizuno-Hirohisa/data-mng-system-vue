@@ -1,12 +1,12 @@
 <script setup>
-    console.log('[NavigationBar.vue]: script setup completed.');
+    console.log('[NavigationBarComp.vue]: script setup completed.');
 
     import { useRouter } from 'vue-router'
 
     const router = useRouter();
 
     function ChangeScreen(path){
-        console.log('[NavigationBar.vue]: ChangeScreen()');
+        console.log('[NavigationBarComp.vue]: ChangeScreen()');
         
         router.push(path);
     }
