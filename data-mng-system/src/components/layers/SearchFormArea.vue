@@ -3,6 +3,7 @@
     
     import { ref } from 'vue';
     import RadioButtonComp from '../commons/RadioButtonComp.vue'
+    import CheckBoxComp from '../commons/CheckBoxComp.vue'
     
 
     const radioBtnItemsA = ref([
@@ -19,6 +20,15 @@
         {label: 'RadioB3', value: 'valB3'}
     ])
 
+    const checkBoxItemsA = ref([
+        {label: 'CheckA1', value: 'valA1'},
+        {label: 'CheckA2', value: 'valA2'},
+        {label: 'CheckA3', value: 'valA3'},
+        {label: 'CheckA4', value: 'valA4'},
+    ])
+
+
+
 </script>
 
 <template>
@@ -29,5 +39,8 @@
 
     <p>RadioButnItemsB</p>
     <RadioButtonComp :btnItems="radioBtnItemsB"></RadioButtonComp>
+
+    <p>CheckBoxItemsA</p>
+    <CheckBoxComp :btnItems="checkBoxItemsA"></CheckBoxComp>
     
 </template>
