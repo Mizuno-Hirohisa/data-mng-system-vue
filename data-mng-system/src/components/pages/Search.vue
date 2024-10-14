@@ -6,7 +6,18 @@
 
 <template>
   <v-app>
-    <p>Search Screen</p>
-    <SearchFormArea></SearchFormArea>
+    <div class="search-area">
+      <p>Search Screen</p>
+      <SearchFormArea></SearchFormArea>
+    </div>
   </v-app>
 </template>
+
+<style scoped>
+.search-area{
+  position: relative;
+  padding-left: 0rem;
+  background-color: aquamarine;
+  width: 35rem;
+}
+</style>
