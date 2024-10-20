@@ -32,15 +32,29 @@
 </script>
 
 <template>
-    <p>SearchFormArea</p>
+    <v-row no-gutters>
+        <v-col class="bg-blue-lighten-4 mx-2">
+            <p>SearchFormArea (Left)</p>
 
-    <p>RadioButnItemsA</p>
-    <RadioButtonComp :btnItems="radioBtnItemsA"></RadioButtonComp>
+            <p>RadioButnItemsA</p>
+            <RadioButtonComp :btnItems="radioBtnItemsA"></RadioButtonComp>
 
-    <p>RadioButnItemsB</p>
-    <RadioButtonComp :btnItems="radioBtnItemsB"></RadioButtonComp>
+            <p>RadioButnItemsB</p>
+            <RadioButtonComp :btnItems="radioBtnItemsB"></RadioButtonComp>
 
-    <p>CheckBoxItemsA</p>
-    <CheckBoxComp :btnItems="checkBoxItemsA"></CheckBoxComp>
-    
+            <p>CheckBoxItemsA</p>
+            <CheckBoxComp :btnItems="checkBoxItemsA"></CheckBoxComp>
+        </v-col>
+        
+        <v-col class="bg-red-lighten-4 mx-2">
+            <p>SearchFormArea(Right)</p>
+            <v-text-field width="400" placeholder="Menu"/>
+            <v-text-field width="400" placeholder="Menu Tag"/>
+            <v-text-field width="400" placeholder="Event"/>
+            
+            <div class="d-flex justify-end">
+                <v-btn color="indigo">Search</v-btn>
+            </div>
+        </v-col>
+    </v-row>
 </template>

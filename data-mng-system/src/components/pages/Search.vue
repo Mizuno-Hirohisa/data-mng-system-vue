@@ -23,7 +23,7 @@
   position: relative;
   padding-left: 0rem;
   background-color: aquamarine;
-  width: 35rem;
+  width: 100%;
 }
 
 .search-result-area{
