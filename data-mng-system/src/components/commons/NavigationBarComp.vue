@@ -18,10 +18,6 @@
         <v-toolbar density="compact">
             <v-toolbar-title>Data Mng System</v-toolbar-title>
             <v-spacer></v-spacer>
-  
-            <v-btn icon @click="ChangeScreen('/home')">
-                <v-icon>mdi-home-variant-outline</v-icon>
-            </v-btn>
 
             <v-btn icon @click="ChangeScreen('/search')">
                 <v-icon>mdi-magnify</v-icon>
