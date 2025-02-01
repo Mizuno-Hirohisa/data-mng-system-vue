@@ -80,6 +80,6 @@
 </script>
 
 <template>
-    <p>SearchResultArea</p>
+    <p>SearchResult</p>
     <TableComp :items="tableItems"></TableComp>
 </template>

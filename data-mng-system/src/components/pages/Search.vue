@@ -22,14 +22,13 @@
 .search-form-area{
   position: relative;
   padding-left: 0rem;
-  background-color: aquamarine;
+  background-color:rgb(185, 215, 228);
   width: 100%;
 }
 
 .search-result-area{
   position: relative;
   padding-left: 0rem;
-  background-color:blanchedalmond;
   width: 100%;
 }
 </style>

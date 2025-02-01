@@ -15,7 +15,7 @@
 
 <template>
     <v-card>
-        <v-toolbar density="compact">
+        <v-toolbar class="header" density="compact">
             <v-toolbar-title>Data Mng System</v-toolbar-title>
             <v-spacer></v-spacer>
 
@@ -33,3 +33,12 @@
         </v-toolbar>
     </v-card>
 </template>
+
+
+<style scoped>
+.header{
+    background-color: rgb(93, 141, 173);
+    color: white;
+}
+
+</style>

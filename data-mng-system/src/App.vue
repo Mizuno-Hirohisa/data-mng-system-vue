@@ -3,6 +3,6 @@
 </script>
 
 <template>
-  <NavigationBarComp></NavigationBarComp>
+  <NavigationBarComp/>
   <router-view/>
 </template>
